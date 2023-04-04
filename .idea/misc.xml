@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FuelCityApp/admin/src/main/res/layout/activity_first.xml" value="0.21666666666666667" />
+        <entry key="..\:/FuelCityApp/app/admin/src/main/res/layout/activity_admin_login.xml" value="0.21666666666666667" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.221" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.222" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/drawable/input_bg.xml" value="0.222" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/layout/activity_order.xml" value="0.2" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/layout/sample.xml" value="0.264" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.222" />
+        <entry key="..\:/FuelCityApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.222" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_admin.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_admin_first_page.xml" value="0.264" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_admin_login.xml" value="0.264" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_admin_resigter_page.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_diesel_order.xml" value="0.264" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_home.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_login.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_main.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_map.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_order.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_petrol_order.xml" value="0.19101123595505617" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_resigter_page.xml" value="0.264" />
+        <entry key="..\:/Users/risha/Desktop/FuelCityApp/app/src/main/res/layout/activity_starting_page.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

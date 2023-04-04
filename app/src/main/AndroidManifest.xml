@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FuelCityApp"
+        tools:targetApi="31">
+
+
+
+        <activity
+            android:name=".review"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Review"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".status_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".admin.admin_profile"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".user.user_profile"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".user.CartActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".user.Diesel_Order"
+            android:exported="false" />
+        <activity
+            android:name=".user.Petrol_Order"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD5GyW9kPfbWp-ap5ru8jze4L6tCPZI9UM" />
+
+        <activity
+            android:name=".admin.Admin_First_page"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Admin_Resigter_page"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Admin_login"
+            android:exported="false" />
+        <activity android:name=".user.Client_login" />
+        <activity
+            android:name=".Starting_page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user.Order"
+            android:exported="false" />
+        <activity
+            android:name=".user.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.Resigter_page"
+            android:exported="false" />
+
+<meta-data
+    android:name="com.razorpay.ApiKey"
+    android:value="rzp_test_GGd3vAeNQnDm1G"/>
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+             android:theme="@style/CheckoutTheme">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <data
+                android:host="rap.io"
+                android:scheme="io.rap" />
+            </intent-filter>
+        </activity>
+
+    <receiver
+        android:name="com.razorpay.RzpTokenReceiver"
+        android:exported="false">
+        <intent-filter>
+            <action android:name="rzp.device_token.share" />
+        </intent-filter>
+    </receiver>
+
+
+    </application>
+
+</manifest>
